@@ -74,7 +74,7 @@ class ViewController: UIViewController {
     
     func updateKeychainItem(){
         // Set username and new password
-        let username = "john"
+        let username = "mynkbarnwal"
         let newPassword = "5678".data(using: .utf8)!
         // Set query
         let query: [String: Any] = [
@@ -93,7 +93,7 @@ class ViewController: UIViewController {
     
     func deleteKeychainItem(){
         // Set username
-        let username = "john"
+        let username = "mynkbarnwal"
         // Set query
         let query: [String: Any] = [
             kSecClass as String: kSecClassGenericPassword,
